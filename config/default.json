@@ -1,5 +1,6 @@
 {
-  "mongoURI": "mongodb+srv://rayjenscode:ggdaebfc@devconnector-bnl3m.mongodb.net/test?retryWrites=true&w=majority",
+  "mongoURI": "mongodb://localhost/devConnector",
+  // "mongoURI": "mongodb+srv://rayjenscode:ggdaebfc@devconnector-bnl3m.mongodb.net/test?retryWrites=true&w=majority",
   "jwtSecret": "mysecrettoken",
   "githubClientId": "d08d83d147ea14a98c12",
   "githubSecret": "ddcc7be17f85eeab24155319960c3c8982a35689"

@@ -90,9 +90,9 @@ const Register = ({ setAlert }) => {
   );
 };
 
-// Register.PropTypes = {
-//   setAlert: PropTypes.func.isRequired
-// };
+Register.propTypes = {
+  setAlert: PropTypes.func.isRequired
+};
 
 export default connect(
   null,

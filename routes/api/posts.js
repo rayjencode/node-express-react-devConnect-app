@@ -143,7 +143,7 @@ router.put("/unlike/:id", auth, async (req, res) => {
 
   post.likes.splice(removeIndex, 1);
   await post.save();
-  res.json({ msg: "Post Unliked" });
+  res.json(post.likes);
 });
 
 // @route   POST api/comment/:id

@@ -18,3 +18,16 @@ const mapStateToProps = state => ({
   alerts: state.alert
 });
 export default connect(mapStateToProps)(Alert);
+
+// fas fa - times
+// fas fa - check
+
+/* <span>
+  {" "}
+  {alert.msg}{" "}
+  <i
+    className={
+      alert.alertType === "danger" ? "fas fa-times" : "fas fa-check"
+    }
+  />
+</span> */
